@@ -1,0 +1,26 @@
+{% block content %}
+
+  {% for post in Display_Posts %}
+        <div class="card large">
+          <div class="card-content">
+
+            <span class="Card-title"><h4>{{post.title}}</h4></span>
+          <span><p class="flow-text">{{post.content}}</p></span>
+
+            <Span class="Date"></Span>
+          </div>
+        </div>
+{% endfor %}
+
+
+
+
+class DeleteView(SuccessMessageMixin, DeleteView):
+    model = Post
+    success_url = '/'
+    success_message = "deleted...">
+
+  <!--<form action="{% ##surl 'Delete_Post' post.id %}" method="POST">
+  {% csrf_token %}
+  <input class="btn btn-default btn-danger" type="submit" value="Delete"/>
+</form>-->
