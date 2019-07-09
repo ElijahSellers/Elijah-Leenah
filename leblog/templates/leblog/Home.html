@@ -87,12 +87,12 @@ height: 100%;
   {% for post in Display_Posts %}
   <div class="col s12 m4">
 
-        <a  class="hoverable" style="color: black;" href="/{{post.title}}">
+        <!--<a  class="hoverable" style="color: black;" href="/{{post.title}}">-->
           <div class="card small z-depth-0 hoverable">
             <div class="card-image">
               <img src="{% static '\leblog\Background.jpg' %}">
             </div>
-          <p style="font-size: 18px overflow: hidden; margin:3px;"><b>{{post.title}}</b></p>
+          <!--<p style="font-size: 18px overflow: hidden; margin:3px;"><b>{{post.title}}</b></p>-->
 
             <p style="
 overflow: hidden;
@@ -101,7 +101,7 @@ overflow: hidden;
   -webkit-box-orient: vertical;
   margin: 3px;">{{post.content}}</p>
 
-        
+
         </div>
       </div>
       </a>
