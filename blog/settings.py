@@ -27,7 +27,7 @@ SECRET_KEY = '#)!6z-+@ah$z&%0py(v2rg-ok4mes$v5_=p_4hmb5!sc9af4p-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['almostgone.online']
 
 
 # Application definition
