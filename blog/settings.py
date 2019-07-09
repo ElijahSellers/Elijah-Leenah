@@ -29,7 +29,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['https://almostgone.online','https://leenah-elijah.herokuapp.com/']
 
-
+COMPRESS_ENABLED = os.environ.get('COMPRESS_ENABLED', False)
 # Application definition
 
 INSTALLED_APPS = [
